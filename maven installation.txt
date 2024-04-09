@@ -49,7 +49,7 @@ eg. we can check studentapp also
 ## our-project has created Example completed
 ==============================================================================================================================================================================================================
 
-Maven Lifecycle for our project:
+## Maven Lifecycle for our project:
 -----------------------------
 Basically it a process collection of maven phases
 
