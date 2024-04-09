@@ -90,7 +90,8 @@ Clean Phase:
      3. EAR (enterprise archive):An EAR file is a package file format used to distribute Java Enterprise Edition (Java EE) applications. 
                           - It contains multiple WAR files, JAR files, and configuration files necessary to deploy and run a Java EE application on an application server.
      4. POM (Project Object Model) file: it is not exactly an artifact in the traditional sense,
-                         -  the POM file (pom.xml) is an XML file that defines the project configuration, dependencies, and build settings. It serves as the project's descriptor and is essential for building and managing the project with Maven.
+                         -  the POM file (pom.xml) is an XML file that defines the project configuration, dependencies, and build settings. 
+                         - It serves as the project's descriptor and is essential for building and managing the project with Maven.
 
 Site Phase:
 -------------------
