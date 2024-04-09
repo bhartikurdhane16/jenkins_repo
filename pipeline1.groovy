@@ -1,5 +1,5 @@
 pipeline{
-    anent any
+    ageent any
 
         stages{
 
