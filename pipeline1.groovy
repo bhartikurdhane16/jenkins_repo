@@ -1,5 +1,5 @@
 pipeline{
-    ageent any
+    agent any
 
         stages{
 
@@ -10,13 +10,13 @@ pipeline{
             }
 
             stage ('build') {
-                step {
+                steps {
                     echo 'build success'
                 }
             }
             
             stage ('test'){
-                step{
+                steps{
                     echo 'test success'
                 }
             }
