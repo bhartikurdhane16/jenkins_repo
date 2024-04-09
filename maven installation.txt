@@ -121,7 +121,7 @@ here we are adding the maven executable command path to provide the maven envior
 # Add Maven installation
     Name = mvn
     Home_Directory =  /opt/apache-maven-3.9.6
-
+note: firs
 Back to Jenkins server: ==>
 ----------------------------
 
