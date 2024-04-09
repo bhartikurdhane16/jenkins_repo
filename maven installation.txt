@@ -1,6 +1,6 @@
 ==> Maven installation
--------------------------
-# java --version    
+--------------------------------------------------------
+# java --version  -----  
 
 Now, refer maven in 5 minute of installation
 # wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
