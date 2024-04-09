@@ -100,7 +100,7 @@ Site Phase:
 ==============================================================================================================================================================================================================
 
 Example on staging:
-1. Get clone of studentapp-ui Application repository from developer --> install maven
+1. Get clone of studentapp-ui Application repository from developer () --> install maven
 # cd studentapp-ui
 # mvn package ( Build the package)
 # ls /studentapp-ui/target/<new-artifact-created>.war
