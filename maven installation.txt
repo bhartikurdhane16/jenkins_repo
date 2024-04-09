@@ -3,7 +3,7 @@
 # java --version  -----dependancy for maven  
 
 Now, refer maven in 5 minute of installation documentation
-Step 1: 
+Step 1: install meven
 # wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
 # sudo tar -xvzf apache-maven-3.9.6-bin.tar.gz
 # sudo mv apache-maven-3.9.6 /opt/
