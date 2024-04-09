@@ -115,7 +115,7 @@ Pom.xml
 4. we can also add maven dependancy here as per requirment from maven repository.
 ==============================================================================================================================================================================================================
 
-Jenkins-App: Global Tool configuration
+Jenkins-App: Global Tool configuration ( here we are tellinga)
 ----------------------------------------
 here we are adding the maven executable command path to provide the maven enviorment in pipeline
 # Add Maven installation
