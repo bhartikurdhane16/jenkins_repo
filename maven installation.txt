@@ -23,7 +23,7 @@ Maven command Syntax : mvn goal argument
 =======================================================================================================
 
 ==> Create a Maven project for Example purpose
------------------------------------------------
+---------------------------------------------------
 
 Syntax: mvn archetype:generate
         command (libreary):(The goal need to download from liabrary)
