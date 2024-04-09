@@ -12,7 +12,11 @@ pipeline{
                     echo 'build success'
                 }
             }
-            stage 9
+            stage ('test'){
+                step{
+                    echo 'test success'
+                }
+            }
         }
     }
 }
