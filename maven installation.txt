@@ -81,7 +81,7 @@ Default Phases
 Clean Phase:
 -------------------
 1. cleans up artifacts created by prior builds
-    arti
+    artifacts: an artifact refers to a file or collection of files that are produced during the build process. Artifacts typically represent the output
 
 
 Site Phase:
