@@ -9,6 +9,7 @@ step 1. create simple pipeline project (ex. pipeline1.groovy)
 // vs code---->create pipeline--->pull to repo----> jenkins app---> create pipeline ----> git project url---->salect option script from source SCM----> repo url---->script path (file name)---->other configuration as per requirment
 ---------------------------------
 step2 : install maven on jenkins server for build
+    - java is dependency so install java
     - 
 
 
