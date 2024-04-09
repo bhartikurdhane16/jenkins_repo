@@ -81,6 +81,8 @@ Default Phases
 Clean Phase:
 -------------------
 1. cleans up artifacts created by prior builds
+    arti
+
 
 Site Phase:
 -------------------
