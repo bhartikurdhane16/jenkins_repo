@@ -29,6 +29,7 @@ Maven command Syntax : mvn goal argument
 
 Syntax: mvn archetype:generate
         command (libreary):(The goal need to download from liabrary)
+        
 archetype: it is maven plugin responsible for generating project from templete called archetype , prasent in libreary
 generate: its a goal/task for the archetype, which tell maven to generate project based on specific archetype
 
