@@ -11,7 +11,7 @@ step 1. create simple pipeline project (ex. pipeline1.groovy)
 step2 : install maven on jenkins server for build
     - java is dependency so install java
     - install tree 
-    refer 5 min 
+    refer 5 minute maven & 
 
 
 
