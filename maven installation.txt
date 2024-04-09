@@ -60,7 +60,7 @@ Mven lifecycle Type:
 2. Clean - It discard old build & ensure project is in clean state befour compile again 
          - include clean phase
 
-3. Site - It helps of documentation
+3. Site - It helps to generate project documentation & repository
 -------------------------------------------------------
 
 Maven Phases: --> Collection of goals/libreary
