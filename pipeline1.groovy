@@ -1,7 +1,9 @@
 pipeline{
     anent any{
         stages{
-            stage ('pull')
+            stage ('pull'){
+                step 
+            }
         }
     }
 }
