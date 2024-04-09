@@ -29,7 +29,7 @@ Maven command Syntax : mvn goal argument
 
 Syntax: mvn archetype:generate
         command (libreary):(The goal need to download from liabrary)
-
+arc
 mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 
 # mvn archetype:generate -DgroupId=com.studentapp-ui.app -DartifactId=studentapp-ui-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
