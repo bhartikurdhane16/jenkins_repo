@@ -84,7 +84,7 @@ Clean Phase:
    ( artifacts: an artifact refers to a file or collection of files that are produced during the build process. Artifacts typically represent the output of project build process.
      artifact type:
      1. WAR (Web archive): A WAR file is a package file format used to distribute a web application. It contains HTML, JavaServer Pages (JSP), Servlets, Java classes, XML files, static web resources, and other resources necessary to run a web application. )
-     2 JAR (java archive)
+     2 JAR (java archive) : 
 
 
 Site Phase:
