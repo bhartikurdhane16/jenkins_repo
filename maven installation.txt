@@ -65,7 +65,7 @@ Mven lifecycle Type:
 -------------------------------------------------------
 
 Maven Phases: --> Collection of goals/libreary
-                 - 
+                 - represents a stage in the lifecycle.
 Default Phases
 ------------------------------------------
 1. validate: validate the project is correct and all necessary information is available
