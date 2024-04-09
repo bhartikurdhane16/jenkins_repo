@@ -8,4 +8,4 @@
 //simple pipeline steps
 // vs code---->create pipeline--->pull to repo----> jenkins app---> create pipeline ----> git project url---->salect option script from source SCM----> repo url---->script path (file name)---->other configuration as per requirment
 
-
+///
