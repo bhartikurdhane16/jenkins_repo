@@ -5,7 +5,7 @@
 
 //steps
 
-1. 
+1. create simple pipeline project 
 // vs code---->create pipeline--->pull to repo----> jenkins app---> create pipeline ----> git project url---->salect option script from source SCM----> repo url---->script path (file name)---->other configuration as per requirment
 
 //main pipeline guidance
