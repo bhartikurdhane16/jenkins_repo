@@ -1,4 +1,5 @@
-maven: 
+maven: it is a build tool
+
 ==> Maven installation
 --------------------------------------------------------
 # java --version  -----dependancy for maven  
