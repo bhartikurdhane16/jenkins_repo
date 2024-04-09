@@ -19,7 +19,7 @@ pipeline{
             }
 
             stage ('deploy'){
-                step {
+                step{
                     echo'deploy success"
                 }
             }
@@ -27,9 +27,3 @@ pipeline{
     }
 }
 
-stages {
-        stage('pull') {
-            steps {
-                echo 'pull successed'
-            }
-        }
