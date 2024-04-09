@@ -17,7 +17,8 @@ pipeline{
                     echo 'test success'
                 }
             }
-            
+
+            stage ()
         }
     }
 }
