@@ -2,6 +2,16 @@ pipeline{
     agent any
 
     stages{
-        stage ('pull')
+        stage ('pull'){
+            steps{
+                echo 'pull stage'
+            }
+        }
+
+        stage ('build'){
+            steps{
+                echo 
+            }
+        }
     }
 }
