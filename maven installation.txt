@@ -55,7 +55,7 @@ Basically it a process collection of maven phases
 
 Mven lifecycle Type:
 1. Default - by default behavior of lifecycle
-        - it handles the build process of the project , it includ phases like 
+        - it handles the build process of the project , it includ phases like compiling the source code , packaging it into
 2. Clean - It discard old build
 3. Site - It helps of documentation
 -------------------------------------------------------
