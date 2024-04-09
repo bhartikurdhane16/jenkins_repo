@@ -6,6 +6,9 @@ pipeline{
                     echo 'pull successed'
                 } 
             }
+
+            
+
         }
     }
 }
