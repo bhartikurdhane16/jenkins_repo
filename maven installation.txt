@@ -58,6 +58,7 @@ Mven lifecycle Type:
         - it handles the build process of the project , it includ phases like compiling the source code , packaging it into distributable formate( ex JAR , WAR) runnig test etc.
         - it include compile, test, package, install, and deploy phases.
 2. Clean - It discard old build
+
 3. Site - It helps of documentation
 -------------------------------------------------------
 
