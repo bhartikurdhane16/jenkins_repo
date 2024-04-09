@@ -57,7 +57,7 @@ Mven lifecycle Type:
 1. Default - by default behavior of lifecycle
         - it handles the build process of the project , it includ phases like compiling the source code , packaging it into distributable formate( ex JAR , WAR) runnig test etc.
         - it include compile, test, package, install, and deploy phases.
-2. Clean - It discard old build & ensure project is in clean state befour
+2. Clean - It discard old build & ensure project is in clean state befour compile again 
 
 3. Site - It helps of documentation
 -------------------------------------------------------
