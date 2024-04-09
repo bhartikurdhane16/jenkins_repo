@@ -7,7 +7,9 @@ pipeline{
                 } 
             }
 
-            stage ('build')
+            stage ('build') {
+                step 
+            }
 
         }
     }
