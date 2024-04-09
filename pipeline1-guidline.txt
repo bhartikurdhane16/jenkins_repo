@@ -6,6 +6,6 @@
 //steps
 
 //simple pipeline steps
-// vs code---->create pipeline--->pull to repo----> jenkins app---> create pipeline ----> 
+// vs code---->create pipeline--->pull to repo----> jenkins app---> create pipeline ----> repo url---->
 
 
