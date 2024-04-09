@@ -12,7 +12,7 @@ pipeline{
                     echo 'build success'
                 }
             }
-
+            stage 9
         }
     }
 }
