@@ -12,7 +12,7 @@ Step 1: install meven
 
 Now add the mvn command in enviorment
 # sudo vim /etc/profile
-  export PATH=$PATH:'/opt/apache-maven-3.9.6/bin/'   ----here adding e
+  export PATH=$PATH:'/opt/apache-maven-3.9.6/bin/'   ----here adding enxironment 
 # source /etc/profile
 # bash
 # mvn --version
