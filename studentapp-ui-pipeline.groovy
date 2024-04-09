@@ -5,7 +5,7 @@ pipeline{
         stage ('pull'){
             steps{
                 git 'https://github.com/bhartikurdhane16/studentapp.ui.git'
-                echo 'pipe'
+                echo 'pull succssed'
             }
         }
 
