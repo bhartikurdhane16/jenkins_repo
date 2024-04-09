@@ -127,7 +127,7 @@ Back to Jenkins server: ==>
 ----------------------------
 
 # cd /studentapp-ui
-# mvn clean package    ------ here 
+# mvn clean package    ------ here we git target dir in 
 
 ==> Now add the build stage in our pipeline
 
