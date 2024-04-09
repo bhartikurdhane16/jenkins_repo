@@ -2,7 +2,7 @@ pipeline{
     anent any
 
         stages{
-            
+
             stage ('pull') {
                 steps {
                     echo 'pull successed'
@@ -14,6 +14,7 @@ pipeline{
                     echo 'build success'
                 }
             }
+            
             stage ('test'){
                 step{
                     echo 'test success'
