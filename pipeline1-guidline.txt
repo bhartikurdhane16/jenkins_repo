@@ -1,8 +1,11 @@
 //createing pipeline
 
+- file extension .groovy
+
+
 //steps
 
 //simple pipeline steps
-// vs code---->create pipeline 
+// vs code---->create pipeline--->pull to repo
 
 
