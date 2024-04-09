@@ -40,7 +40,7 @@ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -Darchety
 # tree -------(if not tree not prasent then install tree #sudo apt install tree) 
 ( studentapp-up is cloudblitz  student databasde application)
 
-Note: Developer decide the build tool, here directory structre is created for java based application from here we started the Applicaiton development lifecycle
+Note: Developer decide the build tool , here directory structre is created for java based application from here we started the Applicaiton development lifecycle
 
 1. First directory has define
 2. Then we write the application/code
