@@ -13,8 +13,12 @@ pipeline{
                 echo 'build stage'
             }
         }
+
+        stage ('test'){
+            
+        }
     }
-    
+
 
 
 
