@@ -38,7 +38,7 @@ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -Darchety
 # mvn archetype:generate -DgroupId=com.studentapp-ui.app -DartifactId=studentapp-ui-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 # cd studentapp-ui-app
 # tree -------(if not tree not prasent then install tree #sudo apt install tree) 
-( studentapp-up is cloudblitz data)
+( studentapp-up is cloudblitz  student databasde application)
 Note: Developer decide the build tool, here directory structre is created for java based application from here we started the Applicaiton development lifecycle
 
 1. First directory has define
