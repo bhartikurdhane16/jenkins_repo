@@ -6,6 +6,6 @@
 //steps
 
 //simple pipeline steps
-// vs code---->create pipeline--->pull to repo----> jenkins app---> create pipeline ----> repo url---->salect option script from source SCM----> repo url
+// vs code---->create pipeline--->pull to repo----> jenkins app---> create pipeline ----> repo url---->salect option script from source SCM----> repo url---->script path ( file name)---
 
 
