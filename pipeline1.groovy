@@ -2,8 +2,15 @@ pipeline{
     anent any{
         stages{
             stage ('pull'){
-                step 
+                steps 
             }
         }
     }
 }
+
+stages {
+        stage('pull') {
+            steps {
+                echo 'pull successed'
+            }
+        }
