@@ -2,7 +2,7 @@
 
 ## Prerequisites
 SonarQube server will require 3GB+ RAM to work effeciently
-
+here we launched redhat 
 
 ## Install Database
 rpm -ivh http://repo.mysql.com/mysql57-community-release-el7.rpm
