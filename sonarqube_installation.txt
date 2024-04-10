@@ -35,5 +35,5 @@ rpm -ivh bellsoft-jdk11.0.4-linux-amd64.rpm
 echo 'vm.max_map_count=262144' >/etc/sysctl.conf ------> it set the value of a kernel parameter called vm.max_map_count to 262144 , /etc/sysctl.conf-->used to Configure kernal parameters
 sysctl -p   -------------->used to modify kernel parameters at runtime/apply the changes done in kernel parameter
 echo '* - nofile 80000' >>/etc/security/limits.conf   ----->used to configure system limits for all users to 80000
-sed -i -e '/query_cache_size/ d' -e '$ a query_cache_size = 15M' /etc/my.cnf   ---->replace 
+sed -i -e '/query_cache_size/ d' -e '$ a query_cache_size = 15M' /etc/my.cnf   ---->replace qu
 systemctl restart mysqld
