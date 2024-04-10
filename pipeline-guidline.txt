@@ -1,0 +1,23 @@
+//createing pipeline
+
+- file extension .groovy
+
+
+//steps
+========================
+step 1. create simple pipeline project (ex. pipeline1.groovy)
+// vs code---->create pipeline--->pull to repo----> jenkins app---> create pipeline ----> git project url---->salect option script from source SCM----> repo url---->script path (file name)---->other configuration as per requirment
+---------------------------------
+step2 : install maven on jenkins server for build
+    - java is dependency so install java
+    - install tree 
+    refer 5 minute maven & maven installation.txt here
+
+    
+webhook: to automatically build/trigger pipeline-----veryyyyyyyyyyyy iiiiimp  ---check webhook file of chetan sir
+sns: post build option -----------very immmmmpppppppppp
+need github-intigration plugin
+
+
+
+
