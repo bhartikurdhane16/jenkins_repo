@@ -1,0 +1,15 @@
+## SonarQube Installation
+
+Prerequisites
+SonarQube server will require 3GB+ RAM to work effeciently
+Install Database
+rpm -ivh http://repo.mysql.com/mysql57-community-release-el7.rpm
+ls /etc/yum.repos.d/
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+yum install mysql-server -y
+systemctl start mysqld
+systemctl enable mysqld
+grep 'temporary password' /var/log/mysqld.log
+#mysql_secure_installation -p <password>  -------------------------------> Temperory password  (Admin@123)
+mysql_secure_installation <log_based_password>               -------------------------------> Set New Password
+Now, our Database server is ready
