@@ -20,4 +20,11 @@ grep 'temporary password' /var/log/mysqld.log      ----dont use
 #mysql_secure_installation -p <password>  -------------------------------> Temperory password  (Admin@123)
 mysql_secure_installation <log_based_password>               -------------------------------> Set New Password 
 -------(new password :Bharti@123*)
-Now, our Database server is ready
+ ## Now, our Database server is ready
+
+ ## Install Java
+yum install wget epel-release -y
+yum install java -y
+wget https://download.bell-sw.com/java/11.0.4/bellsoft-jdk11.0.4-linux-amd64.rpm
+rpm -ivh bellsoft-jdk11.0.4-linux-amd64.rpm
+#alternatives --config java
