@@ -19,7 +19,7 @@ pipeline{
         stage ('test'){
             steps{
                 'run mvn sonar:sonar'
-                echo 'test stage'
+                echo 'test successed'
             }
         }
 
