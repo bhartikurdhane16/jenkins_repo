@@ -37,3 +37,12 @@ sysctl -p                                           -------------->used to modif
 echo '* - nofile 80000' >>/etc/security/limits.conf  ----->used to configure system limits for all users to 80000
 sed -i -e '/query_cache_size/ d' -e '$ a query_cache_size = 15M' /etc/my.cnf ------>replace query_cache_size to query_cache_size=15M
 systemctl restart mysqld
+===============================================================================================
+## Configure Database for Sonarqube
+mysql -u root -p
+mysql>
+    create database sonarqube;
+    show databases;
+    create user 'sonarqube'@'localhost' identified by 'Redhat@123';
+    grant all privileges on sonarqube.* to 'sonarqube'@'localhost';
+    flush privileges;
