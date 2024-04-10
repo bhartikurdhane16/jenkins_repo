@@ -100,7 +100,8 @@ mvn sonar:sonar \
 git clone https://github.com/chetansomkuwar254/studentapp.ui.git
 cd /studentapp.ui
 mvn clean package
-
+#run mvn sonar:sonar <command>
+that is, 
 mvn sonar:sonar \
   -Dsonar.projectKey=studentapp-ui \
   -Dsonar.host.url=http://13.235.134.134:9000 \
