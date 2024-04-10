@@ -11,7 +11,7 @@ pipeline{
 
         stage ('build'){
             steps{
-                sh 'opt'
+                sh '/opt/apache-maven-3.9.6/bin'
                 echo 'build stage'
             }
         }
