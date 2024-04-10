@@ -106,8 +106,10 @@ mvn clean package
 ## Tester and developer will create and manage quality gate.
 
 ## Add the maven scanner commands in pipeline
+
 run mvn sonar:sonar <commands>
-Another way to integrate sonarqube with jenkins
+
+## Another way to integrate sonarqube with jenkins
 Plugins:
 
 Sonarqube scanner
