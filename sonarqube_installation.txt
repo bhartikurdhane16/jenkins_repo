@@ -112,7 +112,7 @@ mvn sonar:sonar \
 
 ## Add the maven scanner commands in pipeline
 
-run mvn sonar:sonar <commands>
+run <mvn path> sonar:sonar <commands>
 
 
 ==============================================================================================================
