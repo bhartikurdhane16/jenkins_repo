@@ -55,4 +55,4 @@ wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.9.1.zip
 unzip sonarqube-7.9.1.zip
 mv sonarqube-7.9.1 /opt             ----->move to opt
 cd /opt
-mv sonarqube-7.9.1 sonar
+mv sonarqube-7.9.1 sonar       ------> rename 
