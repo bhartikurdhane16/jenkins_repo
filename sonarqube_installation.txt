@@ -12,7 +12,7 @@ rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022           ----depende
 yum install mysql-server -y
 systemctl start mysqld
 systemctl enable mysqld
-
+systemctl status mysql_secure_installation
 grep 'temporary password' /var/log/mysqld.log
 #mysql_secure_installation -p <password>  -------------------------------> Temperory password  (Admin@123)
 mysql_secure_installation <log_based_password>               -------------------------------> Set New Password
