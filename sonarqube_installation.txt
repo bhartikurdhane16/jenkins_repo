@@ -134,9 +134,10 @@ Note: If our application code has gate failed then, our application is not able 
 - Sample step: waitForQualityGate wait for sonarqube analysis to be completed and return quality gate status
 - ServerAuthentication toke: sonar-token
 - Generate the pipeline sccript: <script> 
+
 # If my quality gate is failed so,
 waitForQualityGate abortPipeline: true;
 
-changed the quality-gate type in sonarqube applicaiton
+## changed the quality-gate type in sonarqube applicaiton
 - Daufalut
 - Customized one
