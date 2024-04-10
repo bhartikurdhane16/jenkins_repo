@@ -14,7 +14,7 @@ systemctl start mysqld
 systemctl enable mysqld
 systemctl status mysql
 
-now for security resion we are providing password to database
+#now for security resion we are providing password to database
 
 grep 'temporary password' /var/log/mysqld.log
 #mysql_secure_installation -p <password>  -------------------------------> Temperory password  (Admin@123)
