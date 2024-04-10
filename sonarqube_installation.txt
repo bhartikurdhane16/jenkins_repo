@@ -73,3 +73,6 @@ sed -i -e '/^#RUN_AS_USER/ c RUN_AS_USER=sonar' /opt/sonar/bin/linux-x86-64/sona
 ========================================================================================
 ## Whitelist the ports
     - Sonarqube = 9000
+======================================================================================
+## Try to access the Sonarqube application
+Public IP:9000
