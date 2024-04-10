@@ -134,7 +134,7 @@ Back to Jenkins server: ==>
 ===> add pull stage in pipeline (& use in vs code whre pipeline creating)
  pipeline----> git url--->repo url----> path of pipeline(studentapp.ui-pipeline.groovy)--->pipeline syntax generator--->git ---> application repo url (ie studentapp.ui data where pom.xpm present)--->use syntax in main pipeline pull stage
 
-==> Now add the build stage in our pipeline
+==> similarly , Now add the build stage in our pipeline
 
 Pipeline syntax generator: 
     sh: shell Script
