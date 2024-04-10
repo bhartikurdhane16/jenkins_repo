@@ -46,3 +46,4 @@ mysql>
     create user 'sonarqube'@'localhost' identified by 'Redhat@123';
     grant all privileges on sonarqube.* to 'sonarqube'@'localhost';
     flush privileges;
+    exit;
