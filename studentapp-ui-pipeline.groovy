@@ -11,7 +11,7 @@ pipeline{
 
         stage ('build'){
             steps{
-                sh 
+                sh 'opt'
                 echo 'build stage'
             }
         }
