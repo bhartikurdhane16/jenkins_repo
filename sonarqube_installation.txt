@@ -3,7 +3,7 @@
 ## Prerequisites
 SonarQube server will require 3GB+ RAM to work effeciently
 (here we launched redhat t2 medium server - for database)
-
+==============================================================================
 ## Install Database
 
 rpm -ivh http://repo.mysql.com/mysql57-community-release-el7.rpm     -----dependancy 
@@ -21,7 +21,7 @@ grep 'temporary password' /var/log/mysqld.log      ----dont use
 mysql_secure_installation <log_based_password>               -------------------------------> Set New Password 
 -------(new password :Bharti@123*)
  ## Now, our Database server is ready
-
+=====================================================================================
  ## Install Java
 yum install wget epel-release -y
 yum install java -y
