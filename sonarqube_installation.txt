@@ -101,5 +101,7 @@ git clone https://github.com/chetansomkuwar254/studentapp.ui.git
 cd /studentapp.ui
 mvn clean package
 # run mvn sonar:sonar <commands>
-Now this project made in sonarqube applicaiton, and it passed from quality-gate criteria.
-Tester and developer will create and manage quality gate.
+
+## Now this project made in sonarqube applicaiton, and it passed from quality-gate criteria.
+## Tester and developer will create and manage quality gate.
+
