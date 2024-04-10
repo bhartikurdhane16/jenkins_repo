@@ -22,6 +22,7 @@ mysql_secure_installation <log_based_password>               -------------------
 -------(new password :Bharti@123*)
  ## Now, our Database server is ready
 =====================================================================================
+
  ## Install Java
 yum install wget epel-release -y
 yum install java -y
