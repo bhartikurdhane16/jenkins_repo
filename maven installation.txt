@@ -160,8 +160,8 @@ due to an API incompatibility: org.codehaus.plexus.component.repository.exceptio
 # sudo apt install openjdk-11-jdk
 
 To check diffrent version of java or which Java version is curretnly in used. To ensure that use below command.
-# sudo update-alternatives --config java
+# sudo update-alternatives --config java   -----using alternate java 11 version 
 # now to select the exact Java 11 version and Enter.
 # java --version   ... It should be java 11 running
 Now, Build it again.
-############################
+############################s
