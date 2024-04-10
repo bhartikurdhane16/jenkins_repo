@@ -82,8 +82,9 @@ username = admin
 ## Understand the Sonarqube console
 ===================================================================================
 
-Setup the project in sonarqube
-Project Name: studentapp-ui
+## Setup the project in sonarqube
+
+1. Project Name: studentapp-ui
 Genrate the token: save to token, it's only one time visible.
 Set-up the required java enviorment
 Setup the build tool (maven) then we got the scanner maven commands, to run on jenkins server.
