@@ -68,5 +68,5 @@ sed -i -e '/^#RUN_AS_USER/ c RUN_AS_USER=sonar' /opt/sonar/bin/linux-x86-64/sona
 ========================================================================================
 ## Start Sonarqube
 /opt/sonar/bin/linux*/sonar.sh start ------->start sonar prasent at this location
-/opt/sonar/bin/linux*/sonar.sh status
+/opt/sonar/bin/linux*/sonar.sh status  ------>sonar is running
 /opt/sonar/logs 
