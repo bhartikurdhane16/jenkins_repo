@@ -112,17 +112,19 @@ run mvn sonar:sonar <commands>
 ## Another way to integrate sonarqube with jenkins
 ## Plugins:
 
-Sonarqube scanner
-Sonarqube qulatity gate
-Pass the credentials in Jenkins
+1. Sonarqube scanner
+2. Sonarqube qulatity gate
+
+## Pass the credentials in Jenkins
 Dashboard > Manage Jenkins > Credentials > System > Global Credentials - Secret: - ID: sonar-token Meanwhile add Enviormental variable of sonarqube in Jenkins. Name: Sonar-server Secret:
 
-Create Pipeline script for sonarqube
+## Create Pipeline script for sonarqube
 - Pipeline syntax
 - Sample step: withSonarQubeEnv: Prepare sonarqube Enviorment
 - Add token
 - Generate the pipeline script
-If we want to apply condition on quality-gate for our application code. For that we need to create a Quality-gate rule in sonarqube-server application.
+
+## If we want to apply condition on quality-gate for our application code. For that we need to create a Quality-gate rule in sonarqube-server application.
 Note: If our application code has gate failed then, our application is not able to deploy for that we set quality gate. # waitforquality gate
 
 Wait for quality gate syntax (timeout-time)
