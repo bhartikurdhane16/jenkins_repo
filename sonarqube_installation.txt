@@ -110,7 +110,7 @@ mvn clean package
 run mvn sonar:sonar <commands>
 ==============================================================================================================
 ## Another way to integrate sonarqube with jenkins
-Plugins:
+## Plugins:
 
 Sonarqube scanner
 Sonarqube qulatity gate
