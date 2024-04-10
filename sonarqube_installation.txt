@@ -94,8 +94,9 @@ mvn sonar:sonar \
   -Dsonar.host.url=http://13.235.134.134:9000 \
   -Dsonar.login=6cb9b91af5ea13c33111354bd705f300a9fd7c61
 
-First of all clone the studentapp-ui repository in jenkins server
-Run te 4th no's all maven commands in maven project's home directory, where pom.xml file is present.
+5. First of all clone the studentapp-ui repository in jenkins server
+6. Run te 4th no's all maven commands in maven project's home directory, where pom.xml file is present.
+
 git clone https://github.com/chetansomkuwar254/studentapp.ui.git
 cd /studentapp.ui
 mvn clean package
