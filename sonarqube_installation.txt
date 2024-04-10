@@ -85,9 +85,9 @@ username = admin
 ## Setup the project in sonarqube
 
 1. Project Name: studentapp-ui
-Genrate the token: save to token, it's only one time visible.
-Set-up the required java enviorment
-Setup the build tool (maven) then we got the scanner maven commands, to run on jenkins server.
+2. Genrate the token: save to token, it's only one time visible.
+3. Set-up the required java enviorment
+4. Setup the build tool (maven) then we got the scanner maven commands, to run on jenkins server.
 mvn sonar:sonar \
   -Dsonar.projectKey=studentapp-ui \
   -Dsonar.host.url=http://13.235.134.134:9000 \
