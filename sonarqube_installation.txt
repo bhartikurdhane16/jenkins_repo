@@ -1,8 +1,9 @@
 ## SonarQube Installation
 
-Prerequisites
+## Prerequisites
 SonarQube server will require 3GB+ RAM to work effeciently
-Install Database
+
+## Install Database
 rpm -ivh http://repo.mysql.com/mysql57-community-release-el7.rpm
 ls /etc/yum.repos.d/
 rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
