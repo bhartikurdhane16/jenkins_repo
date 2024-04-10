@@ -100,7 +100,10 @@ mvn sonar:sonar \
 git clone https://github.com/chetansomkuwar254/studentapp.ui.git
 cd /studentapp.ui
 mvn clean package
-# run mvn sonar:sonar <commands>
+# run mvn sonar:sonar
+ -Dsonar.projectKey=studentapp-ui \
+  -Dsonar.host.url=http://13.235.134.134:9000 \
+  -Dsonar.login=6cb9b91af5ea13c33111354bd705f300a9fd7c61
 
 ## Now this project made in sonarqube applicaiton, and it passed from quality-gate criteria.
 ## Tester and developer will create and manage quality gate.
