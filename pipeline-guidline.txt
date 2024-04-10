@@ -15,7 +15,7 @@ step2 : install maven on jenkins server for build
 
     
 webhook: to automatically build/trigger pipeline-----veryyyyyyyyyyyy iiiiimp  ---check webhook file of chetan sir
-sns: post build action(email-ser-----------very immmmmpppppppppp
+sns: post build action(email-----------very immmmmpppppppppp
 need github-intigration plugin
 
 
