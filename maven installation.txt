@@ -132,7 +132,7 @@ Back to Jenkins server: ==>
 # cd /studentapp-ui
 # mvn clean package    ------ here we got target dir 
 ===> add pull stage in pipeline
- pipeline----> git url--->repo url----> path of pipeline(studentapp.ui-pipeline.groovy)--->pipeline syntax generator---
+ pipeline----> git url--->repo url----> path of pipeline(studentapp.ui-pipeline.groovy)--->pipeline syntax generator--->git ---> 
 ==> Now add the build stage in our pipeline
 
 Pipeline syntax generator: 
