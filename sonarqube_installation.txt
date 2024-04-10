@@ -16,7 +16,7 @@ systemctl status mysql
 
 #now for security resion we are providing password to database
 
-grep 'temporary password' /var/log/mysqld.log
+grep 'temporary password' /var/log/mysqld.log      ----dont use
 #mysql_secure_installation -p <password>  -------------------------------> Temperory password  (Admin@123)
 mysql_secure_installation <log_based_password>               -------------------------------> Set New Password
 Now, our Database server is ready
