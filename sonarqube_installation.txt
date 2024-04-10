@@ -108,7 +108,7 @@ mvn clean package
 ## Add the maven scanner commands in pipeline
 
 run mvn sonar:sonar <commands>
-
+==============================================================================================================
 ## Another way to integrate sonarqube with jenkins
 Plugins:
 
