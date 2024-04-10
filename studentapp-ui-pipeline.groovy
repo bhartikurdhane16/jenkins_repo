@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage ('pull'){
             steps{
-                git 'https://github.com/bhartikurdhane16/studentapp.ui.git'
+                git changelog: false, poll: false, url: 'https://github.com/bhartikurdhane16/studentapp.ui.git'
                 echo 'pull succssed'
             }
         }
