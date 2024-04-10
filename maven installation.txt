@@ -143,7 +143,7 @@ Pipeline syntax generator:
     sh 'mvn clean package'   [o/p] --> Add in build Script
 
 ('build')
-    (sh '/opt/apache-maven/bin/mvn clean package')
+    (sh '/opt/apache-maven/bin/mvn clean package')    -----use in build stage of pipeline
  
 ##################################################################################################################
 
