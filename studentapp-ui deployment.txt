@@ -14,4 +14,6 @@
   ./startup.sh  -------------start tomcat
 hit <public ip>: 8080  ------------tomcat running
 
-3. plugnis
+3. pluging
+   deploy to container
+   
