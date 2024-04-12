@@ -6,3 +6,5 @@
   apt update -y
   java --version
   apt install java -y
+
+  wget 
