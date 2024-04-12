@@ -9,4 +9,6 @@
 
   wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.tar.gz
   tar -xvzf apache-tomcat-9.0.87.tar.gz
-  cd tomcat-9.0.87.TAR.GZ
+  cd tomcat-9.0.87.tar.gz
+  cd bin
+  
