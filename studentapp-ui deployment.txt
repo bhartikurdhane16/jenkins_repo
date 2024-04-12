@@ -17,4 +17,4 @@ hit <public ip>: 8080  ------------tomcat running
 3. pluging
    deploy to container
 
-
+4 create tomcat user 
