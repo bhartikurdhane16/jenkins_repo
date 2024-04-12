@@ -3,4 +3,4 @@
 ## steps:
 1. launch server
 2. install tomcat
-  
+  #apt 
