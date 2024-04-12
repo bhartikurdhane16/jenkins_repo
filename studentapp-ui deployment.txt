@@ -1,1 +1,4 @@
-## here we are deploying our project on tomcat server
+## here we are deploying our project on tomcat server.
+
+## steps:
+1. launch server
