@@ -11,4 +11,4 @@
   tar -xvzf apache-tomcat-9.0.87.tar.gz
   cd tomcat-9.0.87.tar.gz
   cd bin
-  
+  ./startup.sh  -------------start 
