@@ -4,4 +4,5 @@
 1. launch server
 2. install tomcat
   apt update -y
-  
+  java --version
+  apt install java -y
