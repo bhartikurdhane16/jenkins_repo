@@ -7,4 +7,5 @@
   java --version
   apt install java -y
 
-  wget 
+  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.tar.gz
+  
