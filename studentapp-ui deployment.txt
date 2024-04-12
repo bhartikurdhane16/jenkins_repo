@@ -17,7 +17,7 @@ hit <public ip>: 8080  ------------tomcat running
 3. pluging
    deploy to container
 
-4. create tomcat user ----for login from jenkins /brawser
+4. create tomcat user & assign password----for login from jenkins /brawser
 
 vim /apache-tomcat-9.0.87/conf/tomcat-users.xml
 
