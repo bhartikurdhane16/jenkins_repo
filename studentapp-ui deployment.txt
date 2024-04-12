@@ -12,5 +12,5 @@
   cd tomcat-9.0.87.tar.gz
   cd bin
   ./startup.sh  -------------start tomcat
-hit <public ip>
+hit <public ip>: 8080  ------------tomcat running
 
