@@ -24,8 +24,10 @@ hit <public ip>: 8080  ------------tomcat running
 vim /apache-tomcat-9.0.87/conf/tomcat-users.xml
 
 <user username="tomcat" password="tomcat@123" roles="manager-gui, admin-gui, manager-script"/>   ---added
-./start
+./startup.sh---------------restart tomcat
+
 ------not access manager app, do one thing,
+
 vim /tomcat/webapps/META/contax.xml  -----------comment last 4 lines
 user: tomcat 
 password: tomcat@123
