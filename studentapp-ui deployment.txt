@@ -19,13 +19,14 @@ hit <public ip>: 8080  ------------tomcat running
 
 4. create tomcat user & assign password----for login from jenkins /brawser
 
-vim /tomcat/webapps/META/contax.xml  -----------comment last 4 lines
+
 
 vim /apache-tomcat-9.0.87/conf/tomcat-users.xml
 
 <user username="tomcat" password="tomcat@123" roles="manager-gui, admin-gui, manager-script"/>   ---added
 
-------not access manager app
+------not access manager app, do one thing,
+vim /tomcat/webapps/META/contax.xml  -----------comment last 4 lines
 user: tomcat 
 password: tomcat@123
 
