@@ -33,7 +33,9 @@ password: tomcat@123
 vim /tomcat/webapps/META/contax.xml  -----------comment last 4 lines 
 again restart tomcat
 
-now login page accessable but shows ,
+now login page accessable but shows ,not a private connection msg
+
+
 
 
 
