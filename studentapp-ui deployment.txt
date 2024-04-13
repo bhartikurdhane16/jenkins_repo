@@ -33,7 +33,7 @@ password: tomcat@123
 vim /tomcat/webapps/META/contax.xml  -----------comment last 4 lines 
 again restart tomcat
 
-now shows , you
+now login page accessable but shows ,
 
 
 
