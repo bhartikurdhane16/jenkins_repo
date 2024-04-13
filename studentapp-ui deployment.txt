@@ -25,7 +25,7 @@ vim /apache-tomcat-9.0.87/conf/tomcat-users.xml
 
 <user username="tomcat" password="tomcat@123" roles="manager-gui, admin-gui, manager-script"/>   ---added
 
-
+------not access manager app
 user: tomcat 
 password: tomcat@123
 
