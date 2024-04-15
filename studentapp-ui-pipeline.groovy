@@ -25,7 +25,7 @@ pipeline{
 
         stage ('deploy'){
             steps{
-                sh ""
+                sh "sudo cp /var/lib/jenkins/workspace/studentapp.ui-pipeline/target/"
                 echo 'deploy stage'
             }
         }
