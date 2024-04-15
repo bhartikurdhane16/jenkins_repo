@@ -25,7 +25,7 @@ pipeline{
 
         stage ('deploy'){
             steps{
-                sh "sudo cp /var/lib/jenkins/workspace/studentapp.ui-pipeline/target/"
+                sh "sudo cp /var/lib/jenkins/workspace/studentapp.ui-pipeline/target/studentapp-2.2-SNAPSHOT.war" 
                 echo 'deploy stage'
             }
         }
