@@ -1,12 +1,4 @@
-pipeline{
-    agent any
-    stages {
-        stage('Checkout Terraform Scripts from GitLab') {
-            steps {
-                git branch: 'main'
-                     url: 'https://gitlab.com/bhartikurdhane16/terraform-project-01.git'
-            }
-        }
+
 pipeline {
     agent any
     stages {
