@@ -1,21 +1,55 @@
 ## here we are deploying our project on tomcat server.
 
 ## steps:
-1. launch server
-2. install tomcat
+1. install tomcat
   apt update -y
   java --version
   apt install java -y
 
   wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.tar.gz
   tar -xvzf apache-tomcat-9.0.87.tar.gz
-  cd tomcat-9.0.87.tar.gz
-  cd bin
-  ./startup.sh  -------------start tomcat
-hit <public ip>: 8080  ------------tomcat running
+  mv tomcat -9.0.87.tar.gz tomcat
+  vim tomcat/conf/server.xml  -----------------change port as our jenkins server alredy working on 8080 so run tomcat on 8081
 
-3. pluging
+   cd bin
+  ./startup.sh  -------------start tomcat
+  ./catelina. sh start
+
+ whitelist port 8081 port in security group
+
+hit <public ip>: 8081  ------------tomcat running
+
+2. pluging
    deploy to container
+
+
+3. here , copy .war file prasent in our jenkins pipeline target in tomcat webapps
+
+#cp /var/lib/jenkins/workspace/studentapp.ui-pipeline/target/studentapp-2.2-SNAPSHOT.war /home/ubuntu/tomcat/webapps/"
+
+----use same path in our pipeline for deployment
+
+4. run pipeline, ---shows error --sudo password required ....
+ here our jenkins user not added in sudoers list, so we need to add jenkins user in sudoers list
+
+ vim /etc/sudoers
+
+ jenkins ALL=(ALL) NOPASSWORD:ALL
+
+ now your deployment is successed & pipeline run
+ hit   <public ip> : 8081/deployment ----
+
+
+ 5. create database for your application.
+
+
+
+
+
+
+
+#################################################################################################
+   ### do below configuration if you r using differant server for jenkins & tomcat
 
 4. create tomcat user & assign password----for login from jenkins /brawser
 
