@@ -7,16 +7,34 @@ pipeline{
                      url: 'https://gitlab.com/bhartikurdhane16/terraform-project-01.git'
             }
         }
+pipeline {
+    agent any
+    stages {
+        stage('Checkout Terraform Scripts from GitLab') {
+            steps {
+                script {
+                    git branch: 'main', url: 'https://gitlab.com/bhartikurdhane16/terraform-project-01.git'
+                }
+            }
+        }
 
         stage('Terraform Init') {
             steps {
-                sh 'terraform init'
+                script {
+                    catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                        sh 'terraform init'
+                    }
+                }
             }
         }
 
         stage('Terraform Plan') {
             steps {
-                sh 'terraform plan -out=tfplan'
+                script {
+                    catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                        sh 'terraform plan -out=tfplan'
+                    }
+                }
             }
         }
 
@@ -28,8 +46,12 @@ pipeline{
 
         stage('Terraform Apply') {
             steps {
-                sh 'terraform apply -auto-approve tfplan'
+                script {
+                    catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
+                        sh 'terraform apply tfplan'
+                    }
+                }
             }
         }
-    }  
     }
+}
