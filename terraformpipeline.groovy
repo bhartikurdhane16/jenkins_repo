@@ -1,21 +1,42 @@
-pipeline {
-    agent any
+stages {
+        stage('Checkout Terraform Scripts from GitLab') {
+            steps {
+                git branch: 'main', 
+                    credentialsId: 'gitlab-cred', 
+                    url: 'https://gitlab.com/your-group/terraform-aws.git'
+            }
+        }
 
-    environment {
-        AWS_REGION = "us-east-1"
-    }
+        stage('Install Terraform') {
+            steps {
+                sh '''
+                sudo apt update && sudo apt install -y terraform
+                terraform --version
+                '''
+            }
+        }
+
         stage('Terraform Init') {
             steps {
                 sh 'terraform init'
             }
         }
 
-        stage('Terraform Apply') {
+        stage('Terraform Plan') {
             steps {
-                sh 'terraform apply -auto-approve'
+                sh 'terraform plan -out=tfplan'
             }
         }
-    }
-}
 
-       
+        stage('Manual Approval') {
+            steps {
+                input message: "Apply Terraform changes?", ok: "Deploy"
+            }
+        }
+
+        stage('Terraform Apply') {
+            steps {
+                sh 'terraform apply -auto-approve tfplan'
+            }
+        }
+    }  
