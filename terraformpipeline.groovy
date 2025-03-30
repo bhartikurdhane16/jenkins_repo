@@ -2,30 +2,37 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = "us-east-1"  // Change to your region
-        AWS_CREDENTIALS_ID = "aws-credentials"  // Set up in Jenkins credentials
+        AWS_REGION = "us-east-1"
     }
 
     stages {
-        stage('Checkout Code') {
+        stage('Assume IAM Role') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-repo.git'  // Replace with your repo
+                withCredentials([string(credentialsId: 'aws-role-arn', variable: 'ROLE_ARN')]) {
+                    sh '''
+                    echo "Assuming IAM Role..."
+                    CREDENTIALS=$(aws sts assume-role --role-arn $ROLE_ARN --role-session-name JenkinsSession)
+                    export AWS_ACCESS_KEY_ID=$(echo $CREDENTIALS | jq -r '.Credentials.AccessKeyId')
+                    export AWS_SECRET_ACCESS_KEY=$(echo $CREDENTIALS | jq -r '.Credentials.SecretAccessKey')
+                    export AWS_SESSION_TOKEN=$(echo $CREDENTIALS | jq -r '.Credentials.SessionToken')
+                    '''
+                }
             }
         }
 
-        stage('Install Terraform') {
+        stage('Terraform Init') {
             steps {
-                sh """
-                if ! command -v terraform &> /dev/null; then
-                    echo 'Installing Terraform...'
-                    wget https://releases.hashicorp.com/terraform/1.6.0/terraform_1.6.0_linux_amd64.zip
-                    unzip terraform_1.6.0_linux_amd64.zip
-                    sudo mv terraform /usr/local/bin/
-                fi
-                terraform -version
-                """
+                sh 'terraform init'
             }
         }
+
+        stage('Terraform Apply') {
+            steps {
+                sh 'terraform apply -auto-approve'
+            }
+        }
+    }
+}
 
         stage('Terraform Init') {
             steps {
