@@ -6,15 +6,6 @@ stages {
             }
         }
 
-        stage('Install Terraform') {
-            steps {
-                sh '''
-                sudo apt update && sudo apt install -y terraform
-                terraform --version
-                '''
-            }
-        }
-
         stage('Terraform Init') {
             steps {
                 sh 'terraform init'
