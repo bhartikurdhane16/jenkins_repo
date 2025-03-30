@@ -1,4 +1,6 @@
-stages {
+pipeline{
+    agent any
+    stages {
         stage('Checkout Terraform Scripts from GitLab') {
             steps {
                 git branch: 'main'
