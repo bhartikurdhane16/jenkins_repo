@@ -2,7 +2,7 @@ stages {
         stage('Checkout Terraform Scripts from GitLab') {
             steps {
                 git branch: 'main', 
-                    credentialsId: 'gitlab-cred', 
+                     
                     url: 'https://gitlab.com/your-group/terraform-aws.git'
             }
         }
